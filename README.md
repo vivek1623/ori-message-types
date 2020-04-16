@@ -15,7 +15,7 @@ npm install --save ori-message-types
 ```jsx
 import React, { Component } from 'react' 
 
-import { MyComponent } from 'message-types'
+import { MyComponent } from 'ori-message-types'
 
 class Example extends Component {
   render () {
