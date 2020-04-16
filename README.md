@@ -1,13 +1,13 @@
-# message-types
+# ori-message-types
 
-> react library for chatbot message types
+> react library for chatbot message types (bootstrap with create-react-library)
 
 [![NPM](https://img.shields.io/npm/v/message-types.svg)](https://www.npmjs.com/package/message-types) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save message-types
+npm install --save ori-message-types
 ```
 
 ## Usage
