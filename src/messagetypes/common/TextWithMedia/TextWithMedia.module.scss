@@ -1,0 +1,36 @@
+@import "../../../data/config/styles/colors.scss";
+
+.textWithMediaContainer {
+    word-break: break-word;
+}
+
+.previewOverlayContainer {
+    z-index: 9999999;
+    position: fixed;
+    flex: 1;
+    background-color: $black-overlay-light;
+}
+
+.imageContainer {
+    max-height: 200px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    img {
+        max-height: inherit;
+    }
+}
+
+.title {
+    composes: CapitalizeFirst from '../../../data/config/styles/common.scss';
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ie10upTextWithMediaContainer {
+        max-width: 265px;
+    }
+}

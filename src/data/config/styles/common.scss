@@ -1,0 +1,13 @@
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.CapitalizeFirst::first-letter {
+    text-transform: capitalize;
+}

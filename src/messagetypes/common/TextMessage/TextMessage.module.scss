@@ -1,0 +1,24 @@
+.textMessageContainer {
+    position: relative;
+}
+
+.messageWrapper {
+    word-break: break-word;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.WSPreWrap {
+    white-space: pre-wrap;
+}
+
+.overlayContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    pointer-events: none;
+    word-break: break-word;
+}

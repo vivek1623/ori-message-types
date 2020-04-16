@@ -1,0 +1,15 @@
+.inlineItemContainer {
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.leftWrapper {
+    word-break: break-word;
+}
+
+.rightWrapper {
+    word-break: break-word;
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+

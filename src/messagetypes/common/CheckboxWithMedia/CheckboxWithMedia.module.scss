@@ -1,0 +1,34 @@
+@import "../../../data/config/styles/colors.scss";
+
+.imageContainer {
+    max-height: 200px;
+    overflow: hidden;
+    margin-bottom: 5px;
+
+    img {
+        max-height: inherit;
+    }
+}
+
+.checkboxGroupContainer {
+  background-color: $card-bg;
+  border: 1px solid $border-light;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.checkboxGroupAlignVertical {
+  width: 100%;
+
+  .ant-checkbox-wrapper {
+      width: 100%;
+      display: flex;
+
+      .ant-checkbox {
+          top: 0.24em;
+          margin-right: 5px;
+      }
+  }
+}
